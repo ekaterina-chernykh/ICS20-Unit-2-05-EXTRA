@@ -27,7 +27,7 @@ class Program
         Console.Write("Hourly rate: $");
         rate = Convert.ToDecimal(Console.ReadLine());
 
-        pay = (worked * rate) * (FULL_RATE-TAX_RATE);
+        pay = (worked * rate) * (FULL_RATE - TAX_RATE);
         tax = (worked * rate) * TAX_RATE;
 
         Console.WriteLine(" ");
