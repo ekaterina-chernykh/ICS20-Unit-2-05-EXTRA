@@ -11,7 +11,7 @@ class Program
     {
         const Decimal TAX_RATE = (Decimal)0.18;
         const Decimal FULL_RATE = (Decimal)1;
-      
+
         // This function accepts user input
         decimal worked;
         decimal rate;
