@@ -9,14 +9,14 @@ class Program
 {
     public static void Main(string[] args)
     {
+        const Decimal TAX_RATE = (Decimal)0.18;
+        const Decimal FULL_RATE = (Decimal)1;
+      
         // This function accepts user input
         decimal worked;
         decimal rate;
         decimal pay;
         decimal tax;
-
-        const Decimal TAX_RATE = (Decimal)0.18;
-        const Decimal FULL_RATE = (Decimal)1;
 
         Console.WriteLine("This program calculates the pay and tax");
         Console.WriteLine(" ");
